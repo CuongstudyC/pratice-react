@@ -1,0 +1,25 @@
+.container {
+  max-width: 1440px;
+  margin:0 auto;
+  background: #ffffff;
+}
+
+h2 {
+  font-size: 48px; 
+  font-weight: 700; 
+  color: #323842FF; 
+  font-family: Epilogue; 
+}
+
+
+.home-container {
+  max-width: 1176px;
+  margin:0 auto;
+  background: #ffffff;
+}
+
+.checkout-container {
+  max-width: 770px;
+  margin:0 auto;
+  background: #ffffff;
+}
