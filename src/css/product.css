@@ -1,0 +1,202 @@
+.product-page {
+  margin-top:64px;
+  padding-bottom: 94px;
+}
+
+.product-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 56px;
+}
+
+.product-title .product-title-item {
+  display: flex;
+  align-items: center;
+  gap:24px;
+}
+
+.product-title .product-title-item .button-group {
+  display: flex;
+  align-items: center;
+}
+
+
+.product-title .product-title-item .button-group button {
+  width: 180px; 
+  height: 52px; 
+  display: flex; 
+  flex: 1 1 0; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 400; 
+  color: #00BDD6FF; /* primary-500 */
+  background: #FFFFFFFF; /* white */
+  opacity: 1; 
+  border-radius: 4px 4px 4px 4px; 
+  cursor: pointer;
+  border: none;
+}
+
+.product-title .product-title-item .button-group button:hover {
+  color: #006D7CFF; /* primary-700 */
+  background: #A6F5FFFF; /* primary-200 */
+}
+/* Button group item 2 - Selected */
+.product-title .product-title-item .button-group button:hover:active {
+  color: #FFFFFFFF; /* white */
+  background: #00BDD6FF; /* primary-500 */
+}
+/* Button group item 2 - Disabled */
+.product-title .product-title-item .button-group:disabled {
+  color: #00BDD6FF; /* primary-500 */
+  background: #FFFFFFFF; /* white */
+  opacity: 0.4; 
+}
+
+.product-title .product-title-item .button-group button.active {
+  color: #FFFFFFFF; /* white */
+  background: #00BDD6FF; /* primary-500 */
+}
+
+.product-title .product-title-item .search {
+  display: flex;
+  align-items: center;
+  width: 235px; 
+  height: 52px; 
+  padding:0 12px;
+  background: #00000008; /* white */
+  border-top-left-radius: 4px; 
+  border-top-right-radius: 4px; 
+  border-width: 0px; 
+  box-shadow: 0 1px 0 #bcc1ca; 
+  gap:8px;
+}
+
+.product-title .product-title-item svg {
+  width: 24px; 
+  height: 24px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+.product-title .product-title-item .search input {
+    width: 100%;
+    height: 70%;
+    font-size: 18px; 
+    line-height: 28px; 
+    font-weight: 400; 
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.product-title .product-title-item .sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.product-title .product-title-item .sort {
+  height: 52px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding:0 20px;
+  color: #565E6CFF; /* neutral-600 */
+  background: #F3F4F6FF; /* neutral-200 */
+  opacity: 1; 
+  border: none; 
+  border-radius: 4px; /* border-m */
+  gap: 8px; 
+  cursor: pointer;
+  position: relative;
+}
+.product-title .product-title-item .sort svg {
+  margin-top:5px;
+}
+
+.product-title .product-title-item .sort .toggle-sort {
+  position: absolute;
+  width: max-content;
+  z-index: 20000;
+  left:0;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top:10px;
+  padding:0 10px;
+  text-align: right;
+  box-shadow: 0 0 2px 0 #00000060;
+}
+
+.product-title .product-title-item .sort .toggle-sort div {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border-radius: 4px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.product-title .product-title-item .sort .toggle-sort div:hover {
+  color: #565E6CFF; /* neutral-600 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+
+.page-product {
+  margin-top:96px;
+}
+
+.page-wrapper {
+  display: flex;
+  gap:13px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.page-wrapper button {
+  max-height: 36px; 
+  padding: 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  color: #9095A0FF; /* neutral-500 */
+  background: #00000000; /* transparent */
+  opacity: 1; 
+  border: none; 
+  border-radius: 15px; 
+  cursor: pointer;
+}
+.page-wrapper button svg {
+  width: 16px; 
+  height: 16px; 
+  color: #9095A0FF; /* neutral-500 */
+}
+
+/* Hover */
+.page-wrapper button:hover {
+  color: #9095A0FF; /* neutral-500 */
+  background: #EAECEFFF; /* neutral-250 */
+}
+.page-wrapper button:hover:active {
+  color: #9095A0FF; /* neutral-500 */
+  background: #DEE1E6FF; /* neutral-300 */
+}
+
+.page-wrapper button.active {
+  color: #006D7CFF; /* primary-700 */
+  background: #C8F9FFFF; /* primary-150 */
+}
+
+.reverse.active svg {
+  transform: rotate(180deg);
+}
